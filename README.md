@@ -1,10 +1,6 @@
-# Lost in Saigon Jekyll Themes
-
-Theme designed and developed by [wowthemes](https://github.com/wowthemesnet/mundana-theme-jekyll),
+# Easier App
 
 ![Homepage preview](./assets/images/screenshot.jpg)
-
-[Live Preview](https://wowthemesnet.github.io/mundana-theme-jekyll/)
 
 ## Requirements
 
@@ -13,11 +9,6 @@ Theme designed and developed by [wowthemes](https://github.com/wowthemesnet/mund
 
 ## Content Management
 
-[![import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/jekyll-mundana-forestry&engine=jekyll)
-
-![Forestry admin interface](./assets/images/mundana-forestry-cms.jpg)
-
-This project is pre-configured for [Forestry](https://forestry.io) a Git-based CMS, [import it](https://app.forestry.io/quick-start?repo=forestryio/jekyll-mundana-forestry&engine=jekyll) to edit and preview your site ✨.
 
 Any changes you make in Forestry is commited back to the repository and automatically deployed.
 
@@ -54,8 +45,6 @@ Copy-paste your Git repository URL, accept default settings and click deploy ✨
 That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
 
 ## Feedback
-
-[Open an issue](https://github.com/wowthemesnet/mundana-theme-jekyll/issues) in the theme's repository.
 
 ## LICENSE
 
