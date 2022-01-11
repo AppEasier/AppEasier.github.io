@@ -1,51 +1,62 @@
-# Jekyll Theme - Mundana by WowThemes.net
+# Lost in Saigon Jekyll Themes
 
-[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/) &nbsp; | &nbsp; 
-[Download](https://github.com/wowthemesnet/mundana-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; 
-[Buy me a coffe](https://www.wowthemes.net/donate/) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/mundana-theme-jekyll/) &nbsp; | &nbsp; 
-[WordPress version](https://www.wowthemes.net/themes/mundana-wordpress/) 
+Theme designed and developed by [wowthemes](https://github.com/wowthemesnet/mundana-theme-jekyll),
 
-![mundana jekyll theme screenshot](assets/images/screenshot.jpg)
+![Homepage preview](./assets/images/screenshot.jpg)
 
-### Documentation
+[Live Preview](https://wowthemesnet.github.io/mundana-theme-jekyll/)
 
-[How to install & use](https://bootstrapstarter.com/bootstrap-templates/mundana-theme-jekyll/)
+## Requirements
 
-### Contribute to Mundana repository
+- Ruby > 2.5
+- Jekyll ~> 3.8
 
-1. In the top-right corner of this page, click **Fork**.
+## Content Management
 
-2. Clone a copy of your fork on your local, replacing *YOUR-USERNAME* with your Github username.
+[![import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/jekyll-mundana-forestry&engine=jekyll)
 
-   `git clone https://github.com/YOUR-USERNAME/mundana-theme-jekyll.git`
+![Forestry admin interface](./assets/images/mundana-forestry-cms.jpg)
 
-3. **Create a branch**: 
+This project is pre-configured for [Forestry](https://forestry.io) a Git-based CMS, [import it](https://app.forestry.io/quick-start?repo=forestryio/jekyll-mundana-forestry&engine=jekyll) to edit and preview your site ✨.
 
-   `git checkout -b <my-new-feature-or-fix>`
+Any changes you make in Forestry is commited back to the repository and automatically deployed.
 
-4. **Make necessary changes and commit those changes**:
+## Local development
 
-   `git add .`
+```bash
+# clone your imported repository
+# cd in the project directory
+# install dependencies
+bundle
+# Start local dev server
+bundle exec jekyll serve --livereload --drafts
+```
 
-   `git commit -m "new feature or fix"`
+## Deployment and hosting
 
-5. **Push changes**, replacing `<add-your-branch-name>` with the name of the branch you created earlier at step #3. :
+### GitHub Pages
 
-   `git push origin <add-your-branch-name>`
+Go to your repository settings and activate GitHub Pages in the root folder.
 
-6. Submit your changes for review. Go to your repository on GitHub, you'll see a **Compare & pull request** button. Click on that button. Now submit the pull request.
+### Vercel
 
-That's it! Soon I'll be merging your changes into the master branch of this project. You will get a notification email once the changes have been merged. Thank you for your contribution.
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/git)
 
+Copy-paste your Git repository URL, accept default settings and click deploy ✨.
 
-### Copyright
+### Netlify
 
-Copyright (C) 2019 WowThemes.net.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/forestryio/jekyll-mundana-forestry)
 
-Theme designed and developed by [Sal](https://www.wowthemes.net), *free* under MIT license. 
+1. Set the build command to: `jekyll build`
+2. Set the publish directory to: `site`
 
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
 
-### Live Demo
+## Feedback
 
-[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/)
+[Open an issue](https://github.com/wowthemesnet/mundana-theme-jekyll/issues) in the theme's repository.
+
+## LICENSE
+
+[MIT](LICENSE)
